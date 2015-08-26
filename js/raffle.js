@@ -22,7 +22,7 @@ function process(){
 	var players = parseInt($('.players').val());
 	var options = []
 	map(games, function(game){
-		if (game.Min >= players && game.Max <= players && game.Time <= time) {
+		if (game.Min <= players && game.Max >= players && game.Time <= time) {
 			options.push(game);
 		}
 	});
