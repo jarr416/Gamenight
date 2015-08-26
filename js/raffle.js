@@ -18,7 +18,7 @@ function shuffle(array) {
 }
 
 function process(){
-	var time = pasreInt($('.time').val());
+	var time = parseInt($('.time').val());
 	var players = parseInt($('.players').val());
 	var options = []
 	map(games, function(game){
