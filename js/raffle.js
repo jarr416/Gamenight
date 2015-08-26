@@ -20,7 +20,7 @@ function shuffle(array) {
 function process(){
 	var time = parseInt($('.time').val());
 	var players = parseInt($('.players').val());
-	var options = []
+	options = []
 	map(games, function(game){
 		if (game.Min <= players && game.Max >= players && game.Time <= time) {
 			options.push(game);
