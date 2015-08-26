@@ -13,28 +13,39 @@ var colors = ["#ABC8E4","#628CB6","#003366","#001948","#001948","#001948","#0019
  * the text field, you can define them here. There is an option to give names
  * points, if you don't then it defaults to one point.
  */
-var imported = false;
-// var imported = [
-// {
-// 	name:'Fred',
-// 	points:2
-// },{
-// 	name:'Dallin',
-// 	points:3
-// },{
-// 	name:'Ryan'
-// },{
-// 	name:'Paul'
-// },{
-// 	name:'Wade'
-// },{
-// 	name:'Kesler'
-// },{
-// 	name:'Brett'
-// },{
-// 	name:'Tyler'
-// }
-// ];
+var games = [
+{
+	name:'7 Wonders',
+	Min: 2,
+	Max: 7,
+	Time:30,
+	points:7
+},{
+	name:'Spades',
+	Min: 4,
+	Max: 4,
+	Time: 60,
+	points: 7
+},{
+	name:'Lords of Waterdeep',
+	Min: 2,
+	Max: 5,
+	Time: 60,
+	points: 7
+},{
+	name:'Forbidden Dessert',
+	Min: 2,
+	Max: 5,
+	Time: 30,
+	points: 7
+},{
+	name:'Dirty Hearts',
+	Min: 8,
+	Max: 16,
+	Time: 60,
+	points: 7
+}
+];
 
 
 /**
