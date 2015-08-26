@@ -7,6 +7,7 @@
 
 var inProgress = false;
 var size = 60;
+var options = [];
 function map(a, f){
 	for(var i=0; i<a.length; i++){
 		f(a[i], i);
@@ -16,34 +17,20 @@ function shuffle(array) {
   return array;
 }
 
-function getNames() {
-	return $('.name-text-field').val().split('\n').filter(function(name) {
-		return name.trim();
-	});
-}
-
 function process(){
-	var names = $('.name-text-field').val().split('\n');
-	imported = [];
-	map(getNames(), function(name){
-		imported.push({'name':name});
+	var time = pasreInt($('.time').val());
+	var players = parseInt($('.players').val());
+	var options = []
+	map(games, function(game){
+		if (game.Min >= players && game.Max <= players && game.Time <= time) {
+			options.push(game);
+		}
 	});
 	$('.enter-names').hide(500, function(){
 		makeTicketsWithPoints();
 	});
 }
 
-$(document).ready(function(){
-	if(imported && imported.length > 0) {
-		$('.enter-names').hide();
-
-		makeTicketsWithPoints();
-	}
-
-	$('.name-text-field').on('input', function() {
-		$('#participant-number').text(getNames().length || '');
-	});
-});
 var ticketNames;
 var ticketPoints;
 
@@ -106,21 +93,10 @@ function Ticket(name, points){
 
 var tickets = [];
 
-var removeDuplicateNames = function(data){
-	var seen = {};
-	return data.filter(function(d){
-		if(seen[d.name.toLowerCase()]){
-			return false;
-		}
-		seen[d.name.toLowerCase()] = true;
-		return true;
-	});
-}
-
 var makeTicketsWithPoints = function(){
 	tickets = [];
 	$('.ticket').remove();
-	map(removeDuplicateNames(imported), function(tdata){
+	map(options, function(tdata){
 		var t = new Ticket(tdata.name, tdata.points);
 		if(t.points > 0)
 			t.dom.appendTo($('body'));
