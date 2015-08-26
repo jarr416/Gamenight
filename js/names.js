@@ -6,7 +6,7 @@
  */
 
 //set the colors for each life, in HEX
-var colors = ["#ABC8E4","#628CB6","#003366","#001948","#001948","#001948","#001948"];
+var colors = ["#868dda", "#606ad7", "#4753d1","#2f3dda","#2232dd","#1929d7","#1624bb","#111b8d","#0d1672", "#071078"];
 
 /*
  * If you want to have the names show up on the page without entering them into
