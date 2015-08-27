@@ -20,13 +20,13 @@ var games = [
 	Min: 4,
 	Max: 4,
 	Time: 60,
-	points: 8.6
+	points: 9
 },{
 	name:'Lords of Waterdeep',
 	Min: 2,
 	Max: 5,
 	Time: 60,
-	points: 8.4
+	points: 9
 },{
 	name:'Forbidden Dessert',
 	Min: 2,
@@ -40,190 +40,190 @@ var games = [
 	Time: 60,
 	points: 8
 },{
-	name:’Carcassonne’,
+	name:'Carcassonne',
 	Min:2,
 	Max:6,
 	Time:40,
-	points:7.6
+	points:8
 },{
-	name:’Dominion’,
+	name:'Dominion',
 	Min:2,
 	Max:5,
 	Time:45,
-	points:7.5
+	points:7
 },{
-	name:’5 Crowns’,
+	name:'5 Crowns',
 	Min:2,
 	Max:7,
 	Time:45,
-	points:7.4
+	points:7
 },{
-	name:’Bohnanza’,
+	name:'Bohnanza',
 	Min:2,
 	Max:7,
 	Time:45,
-	points:7.4
+	points:7
 },{
-	name:’Blokus’,
+	name:'Blokus',
 	Min:2,
 	Max:4,
 	Time:30,
-	points:7.2
+	points:7
 },{
-	name:’Scum’,
+	name:'Scum',
 	Min:6,
 	Max:16,
 	Time:30,
-	points:7.2
+	points:7
 },{
-	name:’Oh Shoot’,
+	name:'Oh Shoot',
 	Min:2,
 	Max:6,
 	Time:30,
-	points:7.1
+	points:7
 },{
-	name:’Settlers of Catan’,
+	name:'Settlers of Catan',
 	Min:2,
 	Max:4,
 	Time:60,
-	points:7.1
+	points:7
 },{
-	name:’Settlers: Cities and Kingdoms’,
+	name:'Settlers: Cities and Kingdoms',
 	Min:2,
 	Max:4,
 	Time:90,
 	points:7
 },{
-	name:’Mafia’,
+	name:'Mafia',
 	Min:6,
 	Max:16,
 	Time:20,
-	points:6.8
+	points:6
 },{
-	name:’Four on the Couch’,
+	name:'Four on the Couch',
 	Min:10,
 	Max:20,
 	Time:20,
-	points:6.8
+	points:6
 },{
-	name:’Sequence’,
+	name:'Sequence',
 	Min:2,
 	Max:6,
 	Time:30,
-	points:6.75
+	points:6
 },{
-	name:’Rummikub’,
+	name:'Rummikub',
 	Min:2,
 	Max:4,
 	Time:30,
-	points:6.6
+	points:6
 },{
-	name:’Mario Kart’,
+	name:'Mario Kart',
 	Min:2,
 	Max:4,
 	Time:20,
-	points:6.6
+	points:7
 },{
-	name: ‘Wits and Wagers’,
+	name: 'Wits and Wagers',
 	Min: 3,
 	Max:15,
 	Time: 45,
-	points: 6.5,
+	points: 7,
 },{
-	name: ‘Spot it’,
+	name: 'Spot it',
 	Min: 2,
 	Max: 10,
 	Time: 20,
-	points: 6.5
+	points: 6
 },{
-	name: ‘Hearts’,
+	name: 'Hearts',
 	Min: 4,
 	Max: 4,
 	Time: 60,
-	points: 6.44
+	points: 6
 },{
-	name: ‘Super Mario Bros’,
+	name: 'Super Mario Bros',
 	Min: 2, 
 	Max: 4,
 	Time: 20,
-	points: 6.4
+	points: 6
 },{
-	name: ‘Monopoly Deal’,
+	name: 'Monopoly Deal',
 	Min: 2,
 	Max: 5,
 	Time: 20,
-	points: 6.22
+	points: 6
 },{
-	name: ‘Scattegories’,
+	name: 'Scattegories',
 	Min: 2,
 	Max: 4,
 	Time: 30,
-	points: 6.22
+	points: 6
 },{
-	name: ‘Canasta’,
+	name: 'Canasta',
 	Min: 2,
 	Max: 6,
 	Time: 20,
 	points: 6
 },{
-	name: ‘Peanuts/Nerts’,
+	name: 'Peanuts/Nerts',
 	Min: 2,
 	Max: 12,
 	Time: 30,
 	points: 6
 },{
-	name: ‘Golf’,
+	name: 'Golf',
 	Min: 2,
 	Max: 8,
 	Time: 20,
 	points: 6
 },{
-	name: ‘Catch Phrase’,
+	name: 'Catch Phrase',
 	Min: 2,
 	Max: 24 ,
 	Time: 20,
-	points: 5.8
+	points: 5
 },{
-	name: ‘Munchkin’,
+	name: 'Munchkin',
 	Min: 2,
 	Max: 8,
 	Time: 45,
-	points: 5.78
+	points: 5
 },{
-	name: ‘Skip Bo’,
+	name: 'Skip Bo',
 	Min: 2,
 	Max: 8,
 	Time: 30,
-	points: 5.6
+	points: 5
 },{
-	name: ‘Forbidden Island’,
+	name: 'Forbidden Island',
 	Min: 2 ,
 	Max: 4,
 	Time: 20,
-	points: 5.5
+	points: 5
 },{
-	name: ‘Sorry’,
+	name: 'Sorry',
 	Min: 2,
 	Max: 4,
 	Time: 30,
-	points: 5.4 
+	points: 5
 },{
-	name: ‘Phase 10’,
+	name: 'Phase 10',
 	Min: 2,
 	Max: 10,
 	Time: 45,
-	points: 5.2
+	points: 5
 },{
-	name: ‘Apples to Apples’,	
+	name: 'Apples to Apples',	
 	Min: 4,
 	Max: 10,
 	Time: 60,
-	points: 3.8
+	points: 3
 },{
-	name: ‘Battle of the Sexes,
+	name: 'Battle of the Sexes',
 	Min: 2,
 	Max: 20,
 	Time: 60,
-	points: 3.6
+	points: 3
 }
 ];
