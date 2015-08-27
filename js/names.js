@@ -179,7 +179,7 @@ var games = [
 	points: 6
 },{
 	name: 'Catch Phrase',
-	Min: 2,
+	Min: 6,
 	Max: 24 ,
 	Time: 20,
 	points: 5
