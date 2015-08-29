@@ -15,7 +15,7 @@ var games = [
 	Max:'5',
 	Time:60,
 	points:12
-{
+},{
 	name:'7 Wonders',
 	Min: 2,
 	Max: 7,
