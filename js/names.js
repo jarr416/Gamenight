@@ -10,6 +10,12 @@ var colors = ["#c9daf8", "#a4c2f4", "#6fa8dc","#6d9eeb","#3c78d8","#3d85c6","#11
 
 var games = [
 {
+	name:'Small World',
+	Min:2,
+	Max:'5',
+	Time:60,
+	points:12
+{
 	name:'7 Wonders',
 	Min: 2,
 	Max: 7,
