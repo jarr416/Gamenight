@@ -231,5 +231,53 @@ var games = [
 	Max: 20,
 	Time: 60,
 	points: 3
+},{
+	name: 'Citadels',
+	Min: 2,
+	Max: 8,
+	Time: 60,
+	points: 8
+},{
+	name: 'Shadows Over Camelots',
+	Min: 3,
+	Max: 7,
+	Time: 60,
+	points: 6
+},{
+	name: 'Resistance',
+	Min: 5,
+	Max: 12,
+	Time: 60,
+	points: 10
+},{
+	name: 'Splendor',
+	Min: 2,
+	Max: 4,
+	Time: 30,
+	points: 10
+},{
+	name: 'Takenoko',
+	Min: 2,
+	Max: 4,
+	Time: 45,
+	points: 10
+},{
+	name: 'Puerto Rico',
+	Min: 2,
+	Max: 5,
+	Time: 90,
+	points: 4
+},{
+	name: 'Sushi Go',
+	Min: 2,
+	Max: 5,
+	Time: 15,
+	points: 9
+},{
+	name: 'Love Letter',
+	Min: 2,
+	Max: 4,
+	Time: 20,
+	points: 10
 }
 ];
